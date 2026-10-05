@@ -1,11 +1,11 @@
 #include<stdio.h>
 
-typedef long long ll;
+//typedef long long ll;
 int main(){
 
-	ll distance, cost;
-	scanf("%d%d", &distance, &cost);
-
+	int distance, cost;
+	scanf("%d", &distance);
+    scanf("%d", &cost);
 	if(distance <= 0 || cost <= 0 ){
 		printf("INVALID");
 	}
