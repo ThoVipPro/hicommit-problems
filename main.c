@@ -7,18 +7,18 @@ int main(){
 	scanf("%d%d", &distance, &cost);
 
 	if(distance <= 0 || cost <= 0 ){
-		printf("invalid");
+		printf("INVALID");
 	}
 	else if(distance < 15 && cost > 500000){
 		printf("0");
 	}
 	else if(distance <= 5){
-		printf("%d", 15000+cost);
+		printf("%d", 15000);
 		return 0;
 	}
 	else if(distance <= 15){
-		printf("%d", 25000+cost);
+		printf("%d", 25000);
 		return 0;
 	}else
-	printf("%d",40000 + cost);
+	printf("%d",40000);
 }
