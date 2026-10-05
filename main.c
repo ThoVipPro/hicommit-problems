@@ -9,8 +9,8 @@ int main(){
 	if(distance <= 0 || cost <= 0 ){
 		printf("INVALID");
 	}
-	else if(distance < 15 && cost > 500000){
-		printf("0");
+	else if(distance <= 15 && cost => 500000){
+		printf("%d",0);
 	}
 	else if(distance <= 5){
 		printf("%d", 15000);
