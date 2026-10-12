@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
+int main(){
   int n, kq;
-  for(int i = 1; i < 3; i++){
-    scanf("%d", &n)
+  for(int i = 0; i < 3; i++){
+    scanf("%d", &n);
     if(n > kq){
-      kq = n;}}
+      	kq = n;}
+	}
   printf("%d", kq);
   return 0;
 }
