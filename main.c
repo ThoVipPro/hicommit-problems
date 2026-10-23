@@ -1,7 +1,18 @@
 #include <stdio.h>
 
 int main() {
-  float a;
-  scanf("%1.f",&a);
-  printf("%f",a);
+  float a,w,h;
+  scanf("%f%f",&w,&h);
+  a = w/((h/100)*(h/100));
+  if(a >= 30 ){
+    printf("OBESE");
+    return 0;
+  }else if( a >= 25){
+    printf("OVERWEIGHT");
+    return 0;
+  } else if(a >= 18.5){
+    printf("NORMAL");
+    return 0;
+  } else printf("OBESE");
+  return 0;
 }
