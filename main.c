@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 int main() {
-  float a,w,h;
+  float w,h;
   scanf("%f%f",&w,&h);
-  a = w/((h/100)*(h/100));
-   printf("%f", a);
+  int a = w/((h/100)*(h/100));
   if(a < 18.5 ){
     printf("UNDERWEIGHT");
     return 0;
