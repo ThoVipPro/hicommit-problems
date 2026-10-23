@@ -6,7 +6,7 @@ int main() {
   if(a == 1){
     printf("XEP_LOAI_XUAT_SAC");
     return 0;
-  }else if(a == 2 )){
+  }else if(a == 2){
     printf("XEP_LOAI_GIOI");
     return 0;
   }  else if(a == 3){
