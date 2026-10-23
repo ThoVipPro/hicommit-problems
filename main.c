@@ -2,15 +2,15 @@
 
 int main() {
   float a;
-  scanf("%f",&a);
-  if(a < 18.5 ){
-    printf("UNDERWEIGHT");
+  scanf("%1.f",&a);
+  if(a >= 30 ){
+    printf("OBESE");
     return 0;
-  }else if( (a >= 18.5 ) && (a < 25)){
-    printf("NORMAL");
-    return 0;
-  } else if((a >= 25 ) && (a < 30)){
+  }else if( a >= 25){
     printf("OVERWEIGHT");
+    return 0;
+  } else if(a >= 18.5){
+    printf("NORMAL");
     return 0;
   } else printf("OBESE");
   return 0;
