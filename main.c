@@ -9,7 +9,7 @@
 //< 4.0	F
 int main() {
   float n;
-  scanf("%l", n);
+  scanf("%f", n);
   if(n < 4.0){
     printf("F");
     return 0;
