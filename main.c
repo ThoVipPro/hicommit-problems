@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  loat a;
+  float a;
   scanf("%f",&a);
   if(a < 18.5 ){
     printf("UNDERWEIGHT");
