@@ -13,6 +13,6 @@ int main() {
   } else if(a >= 18.5){
     printf("NORMAL");
     return 0;
-  } else printf("OBESE");
+  } else printf("UNDERWEIGHT");
   return 0;
 }
