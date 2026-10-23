@@ -6,27 +6,25 @@ int main() {
   scanf("%d",&a);
   if(a <= 50){
     kq = a*1678;
-    printf("%d",kq);
-    return 0;
   }else   if(a <= 100){
-    kq = a*1734;
-    printf("%d",kq);
+    kq = ( 50 * 1678) + ((a-50) * 1734 );
+    printf("%l",kq);
     return 0;
   }  else   if(a <= 200){
-    kq = a*2014;
-    printf("%d",kq);
+    kq = (( 50 * 1678) + (50 * 1734) + ((a-100) *2014));
+      printf("%l",kq);
     return 0;
   }  else  if(a <= 300){
-    kq = a*2536;
-    printf("%d",kq);
-    return 0;
+      kq = (( 50 * 1678) + (50 * 1734) + (100 * 2014) + (a-200) *2536);
+      printf("%l",kq);
+      return 0;
   }else  if(a <= 400){
-    kq = a*2834;
-    printf("%d",kq);
+     kq = (( 50 * 1678) + (50 * 1734) + (100 * 2014) + 100 *2536 + (a-300)*2834);
+    printf("%l",kq);
     return 0;
   }
   else {    
-    kq = (a - 400)*2927LL;
+    kq = (( 50 * 1678) + (50 * 1734) + (100 * 2014) + (100 *2536)+ 100*2834 + (a - 400)*2927LL;
     printf("%d",kq);
   }
   return 0;
