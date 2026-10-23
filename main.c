@@ -3,7 +3,7 @@
 int main() {
   float a;
   scanf("%f",&a);
-  if(a < 18.5 ){
+  if(a <= 18.4 ){
     printf("UNDERWEIGHT");
     return 0;
   }else if(a < 25){
