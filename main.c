@@ -7,7 +7,7 @@ int main() {
   if(a < 18.5 ){
     printf("UNDERWEIGHT");
     return 0;
-  }else if( a < 25){
+  }else if( a <= 25){
     printf("NORMAL");
     return 0;
   } else if(a <= 30){
