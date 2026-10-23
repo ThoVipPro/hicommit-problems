@@ -18,7 +18,7 @@ int main() {
     printf("C+\n");
     return 0;
   }else   if(n <= 7.9){
-    printf("B\n);
+    printf("B\n");
     return 0;
   }else   if(n <= 8.9){
     printf("B+\n");
