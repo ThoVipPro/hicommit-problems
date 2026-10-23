@@ -6,6 +6,8 @@ int main() {
   scanf("%d",&a);
   if(a <= 50){
     kq = a*1678;
+    printf("%d",kq);
+    return 0;
   }else   if(a <= 100){
     kq = 83900 + ((a-50) * 1734 );
     printf("%d",kq);
