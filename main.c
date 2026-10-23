@@ -2,7 +2,8 @@
 
 int main() {
   float a,b;
-  if((a >= 9)&&(b >= 90)){
+  scanf("%f%f",&a,&b);
+  if((a >= 9) && (b >= 90)){
     printf("HOC_BONG_XUAT_SAC");
     return 0;
   }else if((a >= 8) && (b >= 80)){
