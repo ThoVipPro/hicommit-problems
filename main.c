@@ -6,10 +6,10 @@ int main() {
   if(a < 18.5 ){
     printf("UNDERWEIGHT");
     return 0;
-  }else if( a < 24.9999999){
+  }else if( a < 24.9999){
     printf("NORMAL");
     return 0;
-  } else if(a < 29.9999999){
+  } else if(a < 29.9999){
     printf("OVERWEIGHT");
     return 0;
   } else printf("OBESE");
