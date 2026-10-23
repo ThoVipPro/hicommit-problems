@@ -26,8 +26,8 @@ int main() {
     return 0;
   }
   else {    
-    kq = a*2927;
-    printf("%d",kq);}
+    kq = (a - 400)*2927LL;
+    printf("%d",kq);
   }
   return 0;
 }
