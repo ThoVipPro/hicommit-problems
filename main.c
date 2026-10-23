@@ -31,6 +31,6 @@ int main() {
   }else   if(n < 8.9){
     printf("B+");
     return 0;
-  }else printf("A")
+  }else printf("A");
   return 0;
 }
