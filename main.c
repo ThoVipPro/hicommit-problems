@@ -3,6 +3,10 @@
 int main(){
   int d, m , y;
   scanf("%d %d %d", &d, &m , &y);
+  if((d<0) || d > 31){
+          printf("INVALID");
+      return 0;
+  }
   if(((m == 1) || (m == 3) || (m == 5) || (m == 7) || (m == 8) || (m ==10) || (m=12) ) && (d <= 31)){
       printf("VALID");
       return 0;
