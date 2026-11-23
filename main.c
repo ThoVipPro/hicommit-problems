@@ -3,7 +3,7 @@
 int main(){
   int d, m , y;
   scanf("%d %d %d", &d, &m , &y);
-  if( d<1 || d > 31 || m > 12 || m < 1 || y < 0 ){
+  if( d<1 || d > 31 || m > 12 || m < 1 || y < 1 ){
       printf("INVALID");
       return 0;
   }
