@@ -3,7 +3,7 @@
 int main() {
   double gpa, min;
   int abs;
-  scanf("%lf%lf%d", gpa, min, abs);
+  scanf("%lf %lf %d", gpa, min, abs);
   if(abs > 3){
     printf("FAIL_ATTENDANCE");return 0;
   }else if(min < 4.0){
@@ -15,5 +15,4 @@ int main() {
   }else if((gpa >= 5.0) && (min >= 4.0)){
     printf("PASS");return 0;    
   }else   printf("FAIL");return 0;  
-  return 0;
 }
