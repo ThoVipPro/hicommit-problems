@@ -3,9 +3,9 @@
 int main() {
   double gpa, min;
   int abs;
-  scanf("%lf", gpa);
-  scanf("%lf", min);
-  scanf("%d", abs);
+  scanf("%lf", &gpa);
+  scanf("%lf", &min);
+  scanf("%d", &abs);
   if(abs > 3){
     printf("FAIL_ATTENDANCE");
     return 0;
