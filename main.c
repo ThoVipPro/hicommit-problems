@@ -3,8 +3,8 @@
 int main(){
   int d, m , y;
   scanf("%d %d %d", &d, &m , &y);
-  if((d<1) || d > 31 || m > 12 || m < 1){
-          printf("INVALID");
+  if( d<1 || d > 31 || m > 12 || m < 1 || y < 0 ){
+      printf("INVALID");
       return 0;
   }
   if(((m == 1) || (m == 3) || (m == 5) || (m == 7) || (m == 8) || (m ==10) || (m==12) ) && (d <= 31)){
